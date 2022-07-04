@@ -10,7 +10,7 @@ const Review = () => {
 
    const getReviews = async () => {
       axios
-         .get(`http://localhost:5000/reviews/${productId}`)
+         .get(`https://ecommerce-backend-adnan.herokuapp.com/reviews/${productId}`)
          .then((data) => setReviews(data.data.reviews))
          .catch((err) => console.log(err));
    };

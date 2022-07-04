@@ -12,7 +12,7 @@ const UserDetails = () => {
 
    const getOneUser = async () => {
       let user = axios
-         .get(`http://localhost:5000/users/${id}`)
+         .get(`https://ecommerce-backend-adnan.herokuapp.com/users/${id}`)
          .then((data) => setUser(data.data));
       setUser(user);
    };

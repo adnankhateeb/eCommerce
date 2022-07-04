@@ -6,7 +6,7 @@ const Users = () => {
    const [users, setUsers] = useState([]);
 
    const getUsers = async () => {
-      let users = await fetch("http://localhost:5000/users");
+      let users = await fetch("https://ecommerce-backend-adnan.herokuapp.com/users");
       users = await users.json();
       //   console.log("users:", users)
       setUsers(users.users);

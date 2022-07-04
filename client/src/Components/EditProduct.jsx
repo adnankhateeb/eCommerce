@@ -19,7 +19,7 @@ const EditProduct = () => {
    };
    const handleSubmit = async (e) => {
       e.preventDefault();
-      await axios.patch(`http://localhost:5000/products/${id}/edit`, formData);
+      await axios.patch(`https://ecommerce-backend-adnan.herokuapp.com/products/${id}/edit`, formData);
       alert("Details Edited!")
    };
    return (

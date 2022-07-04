@@ -16,7 +16,7 @@ const CreateReview = () => {
    };
    const handleSubmit = async (e) => {
       e.preventDefault();
-      await axios.post(`http://localhost:5000/reviews/${productID}`, formData);
+      await axios.post(`https://ecommerce-backend-adnan.herokuapp.com/reviews/${productID}`, formData);
       alert("Review Created");
    };
    return (

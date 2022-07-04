@@ -9,7 +9,7 @@ const Brands = () => {
 
    const getBrands = async () => {
       axios
-         .get(`http://localhost:5000/brands`)
+         .get(`https://ecommerce-backend-adnan.herokuapp.com/brands`)
          .then((data) => setBrands(data.data));
       //  setBrands(data.data)
    };

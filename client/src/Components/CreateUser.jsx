@@ -18,7 +18,7 @@ const CreateUser = () => {
    const handleSubmit = async (e) => {
       e.preventDefault();
       console.log(formData);
-      await axios.post(`http://localhost:5000/users/create`, formData);
+      await axios.post(`https://ecommerce-backend-adnan.herokuapp.com/users/create`, formData);
       alert("Registered!")
    };
    return (

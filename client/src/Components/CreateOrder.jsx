@@ -16,7 +16,7 @@ const CreateOrder = () => {
    };
    const handleSubmit = async (e) => {
       e.preventDefault();
-      await axios.post(`http://localhost:5000/orders/create`, {
+      await axios.post(`https://ecommerce-backend-adnan.herokuapp.com/orders/create`, {
          userID: formData.userID,
          productID: productId,
       });

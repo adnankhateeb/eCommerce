@@ -16,7 +16,7 @@ const ViewOrders = () => {
 
    const getOrders = async () => {
       await axios
-         .get(`http://localhost:5000/orders/${userID}`)
+         .get(`https://ecommerce-backend-adnan.herokuapp.com/orders/${userID}`)
          .then((data) => {
             console.log(data.data);
             setOrders(data.data.orders.productID);

@@ -7,7 +7,7 @@ const ProductShowCase = () => {
    console.log("id:", id);
    const [product, setProduct] = useState({});
    const getProduct = async () => {
-      let data = await fetch(`http://localhost:5000/products/${id}`);
+      let data = await fetch(`https://ecommerce-backend-adnan.herokuapp.com/products/${id}`);
       data = await data.json();
       setProduct(data);
    };

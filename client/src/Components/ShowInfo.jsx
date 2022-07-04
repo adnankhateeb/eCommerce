@@ -23,7 +23,7 @@ const ShowInfo = () => {
 
    const getInfo = async () => {
       await axios
-         .get("http://localhost:5000/orders/all/stats")
+         .get("https://ecommerce-backend-adnan.herokuapp.com/orders/all/stats")
          .then((data) => setMonths(data.data));
    };
 

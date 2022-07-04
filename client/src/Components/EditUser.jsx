@@ -19,7 +19,7 @@ const EditUser = () => {
       e.preventDefault();
       console.log(formData);
       await axios
-         .patch(`http://localhost:5000/users/${id}/edit`, formData)
+         .patch(`https://ecommerce-backend-adnan.herokuapp.com/users/${id}/edit`, formData)
          .then(() => alert("Details Updated!"));
    };
    return (
