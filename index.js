@@ -14,6 +14,7 @@ app.use(cors());
 
 app.get("/", async (req, res) => {
    try {
+      
       res.send({ message: "RUNNING" });
    } catch (error) {
       return res.send({ error: error });
