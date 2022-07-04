@@ -1,0 +1,43 @@
+.App {
+   text-align: center;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+.container * {
+   text-decoration: none;
+   color: black;
+}
+
+.navbarBS {
+   height: 70px;
+   width: 100%;
+}
+
+.navbarBS * {
+   margin: 0;
+   /* padding: 0; */
+   display: flex;
+   justify-content: space-around !important;
+   gap: 5%;
+}
+
+.rightSide *{
+   width: 100%;
+   margin-left: 5%;
+}
+
+Link {
+   margin-left: 10%;
+}
+
+.brand{
+   /* border: 1px solid red; */
+   text-decoration: none !important;
+}
