@@ -1,6 +1,4 @@
-��#� �e�C�o�m�m�e�r�c�e�
-�
-�
+#eCommerce
 
 A very simple full stack eCommerce app where a user can view products and buy them. A user's details can be changed. Products also have a showcase page where the user can view the details of the product. A user can also post reviews of the product, which can be seen by other users on the website. 
 
